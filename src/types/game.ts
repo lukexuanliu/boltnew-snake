@@ -10,6 +10,7 @@ export interface GameState {
   food: Position;
   direction: Direction;
   score: number;
+  highScore: number;
   isGameOver: boolean;
   isPaused: boolean;
 }
